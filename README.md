@@ -30,7 +30,7 @@ dependent variables
 
 The rest of the information includes:
 <div>
-  <img src="https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Dataset-information.png" alt="Dataset information" width="300"/>&nbsp;
+  <img src="https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Dataset%20information.png" alt="Dataset information" width="300"/>&nbsp;
 </div>
 Figure: Information of the dataset.
 
