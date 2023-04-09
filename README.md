@@ -6,10 +6,10 @@ This work was developed as a project for final evaluation of Pattern Recognition
 Authors: Beatriz Negromonte (negromontebs@gmail.com), Rafael Molter (rafaelmolter@gmail.com) and Yandra Vinturini (yandravinturini@gmail.com)
 
 ## Goal:
-Given dataset heart_2020_cleaned.csv, the goal was to detect patterns from the data that can predict a patient’s condition.
+Given dataset [heart_2020_cleaned](https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/heart_2020_cleaned.csv) the goal was to detect patterns from the data that can predict a patient’s condition.
 
 ## Dataset Description:
-Source: https://www.kaggle.com/kamilpytlak/personal-key-indicators-of-heart-disease
+Source: [Personal Key Indicators or Heart Disease, on Kaggle](https://www.kaggle.com/kamilpytlak/personal-key-indicators-of-heart-disease)
 
 The original dataset comes from the CDC and is a major part of the Behavioral Risk Factor Surveillance System (BRFSS), which conducts annual telephone surveys to gather data on the health status of U.S. residents.
 BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted
@@ -30,7 +30,7 @@ dependent variables
 
 The rest of the information includes:
 <div>
-  <img src="https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Dataset%20information.png" alt="Dataset information" width="300"/>&nbsp;
+  <img src="https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Dataset%20information.png" alt="Dataset information" width="700"/>&nbsp;
 </div>
 Figure: Information of the dataset.
 
@@ -45,8 +45,10 @@ Our task was to develop classifiers for Heart Disease, considering three scenari
 
 • Scenario A (Coronary Heart Disease): where a single classifier should be used to predict if a
 patient has Coronary Heart Disease;
+
 • Scenario B (Heart Disease): where a classifier, is designed to distinguish if a patient has Heart
 Disease (either CoronaryHeartDisease or MyocardialInfarction);
+
 • Scenario C (Heart Disease with comorbidities): where classifiers should be designed to distinguish three classes: HeartDiseaseNoComorbidities, HeartDiseaseComorbidities, and NoHeartDisease.
 
 ## Steps taken:
@@ -77,4 +79,4 @@ Scenario B - Poor distinction between the two heart conditions on the sample, th
 Scenario C - Worst scenario, the only classifier able to separate classes well was KNN.
 
 
-The detailed choices, justification and information about what was performed on the project is explained on pdf file Report and more performance metrics graphics are shown on pdf file Presentation. 
+The detailed choices, justification and information about what was performed on the project is explained on [Report](https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Report.pdf) and more performance metrics graphics are shown on [Presentation](https://github.com/blackmountainb/pattern-recognition-algorithm/blob/main/Presentation.pdf). 
